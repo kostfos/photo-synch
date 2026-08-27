@@ -3,8 +3,7 @@ Backup and view your photos on your server
 Phosyn keeps your photos on your own server. The Android app connects to your server, while desktop and tray apps can access the same photo library.
 
 # Releases - Binaries
-Phosyn Server_0.1.0_x64_en-US.msi
-=> https://github.com/kostfos/photo-synch/releases#release-phosyn_0_1_0
+[Phosyn Server_0.1.0_x64_en-US.msi] (https://github.com/kostfos/photo-synch/releases#release-phosyn_0_1_0) 
 Includes server, desktop client, tray app to configure server
 
 postgresql-18.6-1-windows-x64-binaries.zip
@@ -55,10 +54,10 @@ You can do this step with Android client as well with admin.
 Then each user can backup and view their images and videos.
 
 # Tray wizard for configuration
-<img width="519" height="702" alt="tray_wizard_storage" src="https://github.com/user-attachments/assets/9a59ee94-8d0d-4621-aa93-92f629250d1b" />
-<img width="523" height="701" alt="tray_wizard_database" src="https://github.com/user-attachments/assets/fd3dbdae-1542-4c30-9b4f-aaf430e92edf" />
-<img width="521" height="700" alt="tray_wizard_server" src="https://github.com/user-attachments/assets/55c1ae80-57e9-48db-b0ec-11dc1b366471" />
-<img width="522" height="701" alt="tray_wizard_admin" src="https://github.com/user-attachments/assets/db8c5296-d520-4bd1-be07-6e3dfe2c87c5" />
+<img width="260" height="350" alt="tray_wizard_storage" src="https://github.com/user-attachments/assets/9a59ee94-8d0d-4621-aa93-92f629250d1b" />
+<img width="260" height="350" alt="tray_wizard_database" src="https://github.com/user-attachments/assets/fd3dbdae-1542-4c30-9b4f-aaf430e92edf" />
+<img width="260" height="350" alt="tray_wizard_server" src="https://github.com/user-attachments/assets/55c1ae80-57e9-48db-b0ec-11dc1b366471" />
+<img width="260" height="350" alt="tray_wizard_admin" src="https://github.com/user-attachments/assets/db8c5296-d520-4bd1-be07-6e3dfe2c87c5" />
 
 # Desktop client
 <img width="580" height="742" alt="desk_login" src="https://github.com/user-attachments/assets/df534665-a6f8-4357-b0a2-6ff88c6a225d" />
