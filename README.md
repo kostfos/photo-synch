@@ -1,5 +1,5 @@
 # Phosyn
-Backup and view your photos on your server
+Backup and view your photos on your server.
 Phosyn keeps your photos on your own server. The Android app connects to your server, while desktop and tray apps can access the same photo library.
 
 # Releases - Binaries
@@ -16,9 +16,14 @@ Optional: AI feature add on
 Please install Android client from official GooglePlayStore for latest
 
 
-# How to install
+# 📥 Installation
 Please download Phosyn Server_0.1.0_x64_en-US.msi and click to install.  
 
+You can quickly download and install the application directly from your terminal using **Windows Package Manager (WinGet)**. 
+Open PowerShell or Command Prompt and run the following command: 
+```text
+winget install kostfos.phosyn
+```
 Phosyn server requires database app (PostgreSQL) to configure user based storage of photos and videos.
 Download portable binary from [official site](https://www.enterprisedb.com/download-postgresql-binaries) or from releases. Example: 18.6 windows version: postgresql-18.6-1-windows-x64-binaries.zip
 
@@ -35,7 +40,7 @@ Make sure phosyn tray app is configured to use metai with its installed folder
 # How to configure tray app:
 At first run tray app wizard asks you to configure:  
 Set location of PostgreSQL  
-Set location of other required locations  
+Set location of other required settings  
 Set network interface to run; for android app use the actual IP 192.168...   
 Optional: Enable metai and set location of metai
 
@@ -45,7 +50,7 @@ In case their status is not green stop and rerun make sure installation of Postg
 
 # How to use with client apps
 You will see Phosyn server running in Windows tray on the right bottom.
-From there you can run "Open Phosyn" which will run desktop client; you can run this too from shortcut created in desktop.  
+From there you can run "Open Phosyn" which will run desktop client; you can run this too from tray phosyn app.  
 At fresh install you will have "admin" as only user, log in with "admin" with the password you configured and create new users.
 You can do this step with Android client as well with admin.
 Then each user can backup and view their images and videos.
@@ -55,6 +60,11 @@ Then each user can backup and view their images and videos.
 <img width="260" height="350" alt="tray_wizard_database" src="https://github.com/user-attachments/assets/fd3dbdae-1542-4c30-9b4f-aaf430e92edf" />
 <img width="260" height="350" alt="tray_wizard_server" src="https://github.com/user-attachments/assets/55c1ae80-57e9-48db-b0ec-11dc1b366471" />
 <img width="260" height="350" alt="tray_wizard_admin" src="https://github.com/user-attachments/assets/db8c5296-d520-4bd1-be07-6e3dfe2c87c5" />
+
+# Phosyn server - Tray app
+<img width="260" height="250" alt="tray_status" src="https://github.com/user-attachments/assets/9dd72f16-a068-49b1-bbbe-25a4019040c7" />
+<img width="260" height="350" alt="tray_settings" src="https://github.com/user-attachments/assets/ef6f63e8-b901-4f16-be4b-d919cc1ccc74" />
+<img width="260" height="220" alt="tray_about" src="https://github.com/user-attachments/assets/79497d80-faf5-46e0-a884-9afe53500d08" />
 
 # Desktop client
 <img width="290" height="370" alt="desk_login" src="https://github.com/user-attachments/assets/df534665-a6f8-4357-b0a2-6ff88c6a225d" />
